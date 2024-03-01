@@ -50,4 +50,14 @@ python maze.py maze3.txt
 
 ## Solutions
 
-![Maze 1 Output](./Output Images/maze1.png)
+### Maze 1 Output 
+![maze1](https://github.com/HarshSandhu9/DFS-and-BFS-using-Python/assets/79000678/333d6227-f0b9-4718-b907-475302c3bf5c)
+
+### Maze 2 Output
+![maze2](https://github.com/HarshSandhu9/DFS-and-BFS-using-Python/assets/79000678/e53bd780-9588-4252-a82b-fa3556103fb7)
+
+
+### Maze 3 Output
+![maze3](https://github.com/HarshSandhu9/DFS-and-BFS-using-Python/assets/79000678/992e9a22-1e90-4ca5-a47c-89f5e58a628d)
+
+
