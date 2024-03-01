@@ -218,7 +218,8 @@ class Maze():
 if len(sys.argv) != 2:
     sys.exit("Usage: python maze.py maze.txt")
 
-m = Maze(sys.argv[1])
+mazeNo = sys.argv[1]
+m = Maze(mazeNo)
 print("Maze:")
 m.print()
 print("Solving...")
@@ -226,4 +227,5 @@ m.solve()
 print("States Explored:", m.num_explored)
 print("Solution:")
 m.print()
-m.output_image("maze.png", show_explored=True)
+fileName = mazeNo.split('.')
+m.output_image(fileName[0] + ".png", show_explored=True)
